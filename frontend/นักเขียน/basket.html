@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="basket.css">
+    <title>ตะกร้าสินค้า</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <div class="name-icon">
+                <span>ชื่อ-นามสกุล</span>
+            </div>
+            <button class="hamburger-menu">&#9776</button>
+        </div>
+        <div class="header-center">
+            <h1>ToonBook</h1>
+        </div>
+        <div class="header-right">
+            <button class="cart-icon">
+                <a href="basket.html">&#128722;</a>
+            </button>
+            <div class="search-box">
+                &#128269;
+                <input type="text" placeholder="ค้นหาสินค้า">
+            </div>
+        </div>
+    </header>
+    <div class="category-box">
+        <div class="category-buttons">
+            <button class="category-button">
+                <a href="homepage.html">หน้าแรก</a>
+            </button>
+            <button class="category-button">
+                <a href="action.html">แอคชั่น</a>
+            </button>
+            <button class="category-button">
+                <a href="comedy.html">คอมเมดี้</a>
+            </button>
+            <button class="category-button">
+                <a href="kid.html">เด็ก</a>
+            </button>
+            <button class="category-button">
+                <a href="romantic.html">โรแมนติก</a>
+            </button>
+            <button class="category-button">
+                <a href="fantasy.html">แฟนตาซี</a>
+            </button>
+            <button class="category-button">
+                <a href="horror.html">สยองขวัญ</a>
+            </button>
+            <button class="category-button">
+                <a href="scifi.html">ไซไฟ</a>
+            </button>
+        </div>
+    </div>
+    <div class="basket">
+        <div class="center-content">
+            <h2>ตะกร้า</h2>
+            <p>เลือกหนังสือที่ต้องการชำระเงิน</p>
+            <hr class="divider">
+        </div>
+
+        <div class="book-item">
+            <input type="checkbox" class="book-checkbox">
+            <div class="book-details">
+                <div class="book-cover">
+                    <img src="./image/images.jpg" alt="Book Cover">
+                </div>
+                <div class="book-description">
+                    <p>ครอบครัวตึ๋งหนืด ผจญภัยในบ้านผีสิง</p>
+                    <p>ราคา: 2000 บาท</p>
+                    <button class="delete-button">ลบ</button>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="book-item">
+            <input type="checkbox" class="book-checkbox">
+            <div class="book-details">
+                <div class="book-cover">
+                    <img src="./image/images.jpg" alt="Book Cover">
+                </div>
+                <div class="book-description">
+                    <p>ครอบครัวตึ๋งหนืด ผจญภัยในบ้านผีสิงสุดขอบฟ้า</p>
+                    <p>ราคา: 200 บาท</p>
+                    <button class="delete-button">ลบ</button>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="total">
+            <div class="total-left">
+                <input type="checkbox" class="book-checkbox">
+                <p>เลือกทั้งหมด</p>
+            </div>
+            <div class="total-right">
+                <p>รวม xx บาท</p>
+            </div>
+        </div>
+        <div class="payment">
+            <button class="pay-button">ชำระเงิน</button>
+        </div>
+    </div>
+    </div>
+    <div class="overlay1" id="overlay1">
+        <div class="qr-code">
+            <p>รหัสรายการ xxx</p>
+            <img src="./image/qr.png" alt="QrCode">
+            <p>จำนวนเงินที่ต้องชำระ: xxx บาท</p>
+            <p>จำนวนหนังสือที่ต้องได้รับ: x เล่ม</p>
+            <p>1. ชื่อหนังสือที่ต้องได้รับ</p>
+            <p>2. ชื่อหนังสือที่ต้องได้รับ</p>
+            <div class="button-group">
+                <button class="confirm-button">เสร็จสิ้น</button>
+                <button class="cancel-button">ยกเลิก</button>
+            </div>
+        </div>
+    </div>
+    <script src="basket.js"></script>
+    <div class="overlay2" id="overlay2">
+        <div class="header-ham">
+            <button class="red-cross">&#10060;</button>
+        </div>
+        <div class="user">
+            <div class="name-ham">
+                <p>ชื่อ-นามสกุล</p>
+            </div>
+            <div class="email-ham">
+                <p>example@psu.ac.th</p>
+            </div>
+            <button class="sign-out-button">
+                <a href="login.html">ออกจากระบบ</a>
+            </button>
+            <hr class="divider">
+            <button class="menu-button">
+                <a href="userinfo.html">ข้อมูลผู้ใช้</a>
+            </button>
+            <br>
+            <button class="menu-button">
+                <a href="library.html">ชั้นหนังสือของฉัน</a>
+            </button>
+            <br>
+            <button class="menu-button">
+                <a href="history.html">
+                    ประวัติการสั่งซื้อ
+                </a>
+            </button>
+            <br>
+            <button class="menu-button">
+                <a href="paymentconfirm.html">
+                    แจ้งชำระเงิน
+                </a>
+            </button>
+            <hr class="divider">
+            <button class="menu-button">
+                <a href="writerinfo.html">ข้อมูลนักเขียน</a>
+            </button>
+            <hr class="divider">
+        </div>
+    </div>
+    </div>
+    <script src="basket2.js"></script>
+</body>
+
+</html>

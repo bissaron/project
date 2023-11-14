@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="managebook.css">
+    <title>จัดการหนังสือ</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <div class="name-icon">
+                <span>ชื่อ-นามสกุล</span>
+            </div>
+            <button class="hamburger-menu">&#9776</button>
+        </div>
+        <div class="header-center">
+            <h1>ToonBook</h1>
+        </div>
+        <div class="header-right">
+           
+        </div>
+    </header>
+    
+    <div class="center-content">
+        <h2>รายชื่อหนังสือ</h2>
+    </div>
+    <div class="book-list">
+        <div class="book-item">
+            <div class="book-details-topic">
+                <span class="book-row">
+                    <strong>รหัสหนังสือ</strong>
+                </span>
+                <span class="book-row">
+                    <strong>ชื่อหนังสือ</strong>
+                </span>
+                <span class="book-row">
+                    <strong>จัดการหนังสือ</strong>
+                </span>
+
+            </div>
+        </div>
+        <div class="book-item">
+            <div class="book-details">
+                <span class="book-row">001</span>
+                <span class="book-row">หนังสือสัตว์</a></span>
+                <button class="delete-button"> &#128465;</button>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="book-item">
+            <div class="book-details">
+                <span class="book-row">002</span>
+                <span class="book-row">หนังสือสัตว์</a></span>
+                <button class="delete-button"> &#128465; </button>
+
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="book-item">
+            <div class="book-details">
+                <span class="book-row">003</span>
+                <span class="book-row">หนังสือสัตว์</a></span>
+                <button class="delete-button">&#128465; </button>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="overlay1" id="overlay1">
+        <div class="confirmation-box overlay" id="confirmation-box">
+            <div class="confirmation-content">
+                <h2>ยืนยันการลบ</h2>
+                <p>คุณแน่ใจหรือไม่ที่ต้องการลบหนังสือนี้?</p>
+                <div class="button-group">
+                    <button class="confirm-delete-button" onclick="confirmDelete()">ยืนยัน</button>
+                    <button class="cancel-delete-button" onclick="cancelDelete()">ยกเลิก</button>
+                </div>
+            </div>
+        </div>
+        <script src="managebook1.js"></script>
+    </div>
+    <div class="overlay2" id="overlay2">
+        <div class="header-ham">
+            <button class="red-cross">&#10060;</button>
+        </div>
+        <div class="user">
+            <div class="name-ham">
+                <p>ชื่อ-นามสกุล</p>
+            </div>
+            <div class="email-ham">
+                <p>example@psu.ac.th</p>
+            </div>
+            <button class="sign-out-button">
+                <a href="login.html">ออกจากระบบ</a>
+            </button>
+            <hr class="divider">
+            <button class="menu-button">
+                <a href="libraryapprove.html">ชั้นหนังสือที่ต้องตรวจสอบ</a>
+            </button>
+            <button class="menu-button">
+                <a href="verifypaymenttable.html">การชำระเงินที่ต้องตรวจสอบ</a>
+            </button>
+            
+            <hr class="divider">
+            <button class="menu-button">
+                <a href="manageuser.html">จัดการผู้ใช้</a>
+            </button>
+            </br>
+            <button class="menu-button">
+                <a href="managebook.html">จัดการหนังสือ</a>
+            </button>
+        </div>
+    </div>
+    </div>
+    <script src="managebook2.js"></script>   
+
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="library.css">
+    <title>ชั้นหนังสือของฉัน</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <div class="name-icon">
+                <span>ชื่อ-นามสกุล</span>
+            </div>
+            <button class="hamburger-menu">&#9776</button>
+        </div>
+        <div class="header-center">
+            <h1>ToonBook</h1>
+        </div>
+        <div class="header-right">
+            <button class="cart-icon">
+                <a href="basket.html">&#128722;</a>
+            </button>
+            <div class="search-box">
+                &#128269;
+                <input type="text" placeholder="ค้นหาสินค้า">
+            </div>
+        </div>
+    </header>
+    <div class="category-box">
+        <div class="category-buttons">
+            <button class="category-button">
+                <a href="homepage.html">หน้าแรก</a>
+            </button>
+            <button class="category-button">
+                <a href="action.html">แอคชั่น</a>
+            </button>
+            <button class="category-button">
+                <a href="comedy.html">คอมเมดี้</a>
+            </button>
+            <button class="category-button">
+                <a href="kid.html">เด็ก</a>
+            </button>
+            <button class="category-button">
+                <a href="romantic.html">โรแมนติก</a>
+            </button>
+            <button class="category-button">
+                <a href="fantasy.html">แฟนตาซี</a>
+            </button>
+            <button class="category-button">
+                <a href="horror.html">สยองขวัญ</a>
+            </button>
+            <button class="category-button">
+                <a href="scifi.html">ไซไฟ</a>
+            </button>
+        </div>
+    </div>
+    <div class="center-content">
+        <h2>ชั้นหนังสือของฉัน</h2>
+    </div>
+    <div class="book-cover-grid">
+
+        <div class="book-cover">
+            <div class="book-frame">
+                <a href="bookviewer.html">
+                    <img src="./image/images.jpg" alt="Book 1">
+                </a>
+                <h2>ชื่อหนังสือ 1</h2>
+                <button class="rate-button">ให้คะแนน</button>
+            </div>
+        </div>
+        <div class="book-cover">
+            <div class="book-frame">
+                <img src="./image/images.jpg" alt="Book 2">
+                <h2>ชื่อหนังสือ 2</h2>
+                <button class="rate-button">ให้คะแนน</button>
+            </div>
+        </div>
+        <div class="book-cover">
+            <div class="book-frame">
+                <img src="./image/template-1.png" alt="Book 3">
+                <h2>ชื่อหนังสือ 3</h2>
+                <button class="rate-button">ให้คะแนน</button>
+            </div>
+        </div>
+        <div class="book-cover">
+            <div class="book-frame">
+                <img src="./image/template-1.png" alt="Book 4">
+                <h2>ชื่อหนังสือ 4</h2>
+                <button class="rate-button">ให้คะแนน</button>
+            </div>
+        </div>
+    </div>
+    <div class="overlay1" id="overlay1">
+        <div class="rating-box">
+            <h3>ให้คะแนน</h3>
+            <div class="stars">
+                <span class="star" data-value="1">&#9733;</span>
+                <span class="star" data-value="2">&#9733;</span>
+                <span class="star" data-value="3">&#9733;</span>
+                <span class="star" data-value="4">&#9733;</span>
+                <span class="star" data-value="5">&#9733;</span>
+            </div>
+            <div class="button-group">
+                <button class="confirm-button">ยืนยัน</button>
+                <button class="cancel-button">ยกเลิก</button>
+            </div>
+        </div>
+    </div>
+    <script src="library.js"></script>
+    <div class="overlay2" id="overlay2">
+        <div class="header-ham">
+            <button class="red-cross">&#10060;</button>
+        </div>
+        <div class="user">
+            <div class="name-ham">
+                <p>ชื่อ-นามสกุล</p>
+            </div>
+            <div class="email-ham">
+                <p>example@psu.ac.th</p>
+            </div>
+            <button class="sign-out-button">
+                <a href="login.html">ออกจากระบบ</a>
+            </button>
+            <hr class="divider">
+            <button class="menu-button">
+                <a href="userinfo.html">ข้อมูลผู้ใช้</a>
+            </button>
+            <br>
+            <button class="menu-button">
+                <a href="library.html">ชั้นหนังสือของฉัน</a>
+            </button>
+            <br>
+            <button class="menu-button">
+                <a href="history.html">
+                    ประวัติการสั่งซื้อ
+                </a>
+            </button>
+            <br>
+            <button class="menu-button">
+                <a href="paymentconfirm.html">
+                    แจ้งชำระเงิน
+                </a>
+            </button>
+            <hr class="divider">
+            <button class="menu-button">
+                <a href="writerregis.html">ลงทะเบียนนักเขียน</a>
+            </button>
+            <hr class="divider">
+        </div>
+    </div>
+    </div>
+    <script src="library2.js"></script>
+</body>
+
+</html>
