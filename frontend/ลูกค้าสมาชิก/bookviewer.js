@@ -1,4 +1,5 @@
-const url = "123.pdf";
+const url = '123.pdf';
+
 
 let pdfDoc = null,
   pageNum = 1,
@@ -69,6 +70,7 @@ const showNextPage = () => {
 };
 
 // Get Document
+
 pdfjsLib
   .getDocument(url)
   .promise.then((pdfDoc_) => {
@@ -78,6 +80,8 @@ pdfjsLib
 
     renderPage(pageNum);
   })
+
+  
   .catch((err) => {
     // Display error
     const div = document.createElement("div");
